@@ -36,18 +36,14 @@ In addition each restaurant also has a limited amount of pizza in their stock, o
 - Please create a function named branchesFinder .
 - This function requires 2 arguments:
 - First argument is an array of a restaurant branch's objects containing name, location and currentStock, example:
-  ```
+  ```js
   [
-    {
-      name: “Ladprao”,
-      location: [3, 4],
-      currentStock: 5
-    },
+    { name: “Ladprao”, location: [3, 4], currentStock: 5 },
     ...
   ]
   ```
 - Second argument is the customer's order object containing customer’s location and amount of ordered pizza, example:
-  ```
+  ```js
   { location: [5, 7], amount: 1 }
   ```
 - This function will calculate and return the branch(s) which has the cheapest delivery cost and has enough pizza to deliver
@@ -56,13 +52,8 @@ In addition each restaurant also has a limited amount of pizza in their stock, o
   - When there are no branches that have enough stock to deliver a customer order, return multiple branches from the cheapest one until it fulfill customer’s order
   - When there are no branches that have enough stock to deliver even combined all branches stock, return an empty array.
 - This function must return the arrays branches to delivering the customer order with object containing the restaurant branch name, location, delivery cost, and amount of pizza to deliver in this format
-  ```
-  {
-    name: “Ladprao”,
-    location: [5, 7],
-    deliveryCost: 6,
-    amount: 2
-  }
+  ```js
+  { name: “Ladprao”, location: [5, 7], deliveryCost: 6, amount: 2 }
   ```
 
 ## Test Cases
