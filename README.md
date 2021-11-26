@@ -7,6 +7,7 @@ Javascript full stack developer interview challenge for Opn Store (Opn Commerce)
 - [Possible Contact](https://opn-ooo.github.io/opn-store-interview-challenge/possible-contact) (Mid level, 2 hours)
 
 ## Take home Challenges
+- [Covid Timeline Simplified](https://opn-ooo.github.io/opn-store-interview-challenge/covid-timeline-simplified)
 - [Covid Timeline](https://opn-ooo.github.io/opn-store-interview-challenge/covid-timeline)
 - [House Timeline](https://opn-ooo.github.io/opn-store-interview-challenge/house-timeline)
 - [House Timeline](https://opn-ooo.github.io/opn-store-interview-challenge/house-timeline-full)
